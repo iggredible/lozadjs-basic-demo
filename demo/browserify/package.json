@@ -1,0 +1,20 @@
+{
+  "name": "lozadjs-browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchify": "watchify -p esmify src/main.js -o dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "Igor L Irianto <igoririanto@rocketmail.com>",
+  "license": "mit",
+  "dependencies": {
+    "browser-resolve": "1.11.3",
+    "esmify": "2.1.1",
+    "lozad": "1.9.0",
+    "uniq": "1.0.1",
+    "watchify": "3.11.1"
+  }
+}
